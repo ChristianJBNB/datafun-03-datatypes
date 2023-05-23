@@ -1,0 +1,15 @@
+2023-05-23 14:55:48,293 =============================================================
+2023-05-23 14:55:48,293 =============================================================
+2023-05-23 14:55:48,293 Today is 2023-05-23 at 02:55 PM
+2023-05-23 14:55:48,309 This file is running on: nt Windows 10
+2023-05-23 14:55:48,309 The Python version is: 3.11.3
+2023-05-23 14:55:48,309 The active conda environment is:  None
+2023-05-23 14:55:48,309 The active pip environment is:    None
+2023-05-23 14:55:48,309 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python311
+2023-05-23 14:55:48,309 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
+2023-05-23 14:55:48,309 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
+2023-05-23 14:55:48,309 =============================================================
+2023-05-23 14:55:48,309 =============================================================
+2023-05-23 14:55:48,309 Starting util_datafun_logger.py
+2023-05-23 14:55:48,309 Information is logged to: logs/logs\util_datafun_logger.log
+2023-05-23 14:55:48,309 Ending util_datafun_logger.py
