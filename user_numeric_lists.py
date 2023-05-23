@@ -50,7 +50,7 @@ list1 = [
 
 #listx: First 10 games of the NBA season
 
-listx = [range(10)]
+listx = range(10)
 
 #listy: Number of points scored by a NBA player in those first 10 games
 
@@ -62,14 +62,20 @@ listy = [20, 22, 31, 40, 18, 19, 16, 33, 35, 25]
 
 def list_1_descriptive_stats():
 
+    #Introduction logging for function
+
+    logger.info("List 1. List Statistics")
     logger.info("Calculating important statistics for the number of points scored by an NBA team")
     logger.info("")
     logger.info(f"This is the list of scores for an NBA team for 20 games: {list1}")
     
     #Calculation of Mean, Median, Mode
+
     mean = statistics.mean(list1)
     median = statistics.median(list1)
     mode = statistics.mode(list1)
+
+    #Logging of information
 
     logger.info(f"The mean for number of points scored for 20 games by an NBA team is: {mean:.2f}")
     logger.info(f"The median for number of points scored for 20 games by an NBA team is: {median:.2f}")
@@ -80,11 +86,44 @@ def list_1_descriptive_stats():
     stdev = statistics.stdev(list1)
     variance = statistics.variance(list1)
 
+    #Logging of information
+
     logger.info(f"The standard deviation for number of points scored for 20 games by an NBA team is: {stdev:.2f}")
     logger.info(f"The variance for number of points scored for 20 games by an NBA team is: {variance:.2f}")
+    logger.info("")
 
-#Task 3-2: List 2. Lists- Correlation and Prediction
 
+#Task 3-2: List 2. Lists - Correlation and Prediction
+
+def list_2_correlation_prediction():
+    
+    #Introduction logging for function
+
+    logger.info("List 2. Lists - Correlation and Prediction")
+    logger.info("Calculating correlation, slope and intercept of best fit line, and predicting y value at future x time")
+    logger.info("")
+    logger.info(f"In the first {listx} games of an NBA players season, he scored {listy} points")
+
+    #Calculate correlation, slope and intercept 
+
+    correlation = statistics.correlation(listx, listy)
+    slope, intercept = statistics.linear_regression(listx, listy)
+
+    #Logging of information
+
+    logger.info(f"The correlation between the first 10 games played by an NBA player and the number of points scored in said games is {correlation:.2f}")
+    logger.info(f"The slope, number of game, is {slope:.2f}")
+    logger.info(f"The intercept, number of points scored, is {intercept:.2f}")
+
+    #Future Time = 15, Predict y value
+
+    future_time = 15
+    predictiony = slope * future_time + intercept
+
+    #Logging of information
+
+    logger.info(f"In game {future_time}, we predict that the NBA Player will score {predictiony} points")
+    logger.info("")
 
 
 
@@ -100,7 +139,7 @@ if __name__ == "__main__":
 
     # call your functions here (see instructions)
     list_1_descriptive_stats()
-
+    list_2_correlation_prediction()
     with open(logname, 'r') as file_wrapper:
         print(file_wrapper.read())
 
