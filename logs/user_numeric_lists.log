@@ -1,30 +1,43 @@
-2023-05-23 15:46:19,796 =============================================================
-2023-05-23 15:46:19,796 =============================================================
-2023-05-23 15:46:19,796 Today is 2023-05-23 at 03:46 PM
-2023-05-23 15:46:19,810 This file is running on: nt Windows 10
-2023-05-23 15:46:19,810 The Python version is: 3.11.3
-2023-05-23 15:46:19,810 The active conda environment is:  None
-2023-05-23 15:46:19,810 The active pip environment is:    None
-2023-05-23 15:46:19,810 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python311
-2023-05-23 15:46:19,810 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
-2023-05-23 15:46:19,810 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
-2023-05-23 15:46:19,810 =============================================================
-2023-05-23 15:46:19,810 =============================================================
-2023-05-23 15:46:19,810 List 1. List Statistics
-2023-05-23 15:46:19,810 Calculating important statistics for the number of points scored by an NBA team
-2023-05-23 15:46:19,810 
-2023-05-23 15:46:19,810 This is the list of scores for an NBA team for 20 games: [114, 122, 133, 98, 100, 107, 129, 114, 111, 94, 88, 106, 117, 140, 131, 119, 145, 118, 127, 154]
-2023-05-23 15:46:19,810 The mean for number of points scored for 20 games by an NBA team is: 118.35
-2023-05-23 15:46:19,810 The median for number of points scored for 20 games by an NBA team is: 117.50
-2023-05-23 15:46:19,810 The mode for number of points scored for 20 games by an NBA team is: 114.00
-2023-05-23 15:46:19,810 The standard deviation for number of points scored for 20 games by an NBA team is: 17.27
-2023-05-23 15:46:19,810 The variance for number of points scored for 20 games by an NBA team is: 298.24
-2023-05-23 15:46:19,810 
-2023-05-23 15:46:19,810 List 2. Lists - Correlation and Prediction
-2023-05-23 15:46:19,810 Calculating correlation, slope and intercept of best fit line, and predicting y value at future x time
-2023-05-23 15:46:19,810 
-2023-05-23 15:46:19,810 In the first range(0, 10) games of an NBA players season, he scored [20, 22, 31, 40, 18, 19, 16, 33, 35, 25] points
-2023-05-23 15:46:19,810 The correlation between the first 10 games played by an NBA player and the number of points scored in said games is 0.17
-2023-05-23 15:46:19,810 The slope, number of game, is 0.45
-2023-05-23 15:46:19,810 The intercept, number of points scored, is 23.85
-2023-05-23 15:46:19,810 In game 15, we predict that the NBA Player will score 30.672727272727272 points
+2023-05-23 16:00:01,083 =============================================================
+2023-05-23 16:00:01,083 =============================================================
+2023-05-23 16:00:01,083 Today is 2023-05-23 at 04:00 PM
+2023-05-23 16:00:01,098 This file is running on: nt Windows 10
+2023-05-23 16:00:01,098 The Python version is: 3.11.3
+2023-05-23 16:00:01,098 The active conda environment is:  None
+2023-05-23 16:00:01,098 The active pip environment is:    None
+2023-05-23 16:00:01,098 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python311
+2023-05-23 16:00:01,098 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
+2023-05-23 16:00:01,098 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
+2023-05-23 16:00:01,098 =============================================================
+2023-05-23 16:00:01,098 =============================================================
+2023-05-23 16:00:01,098 List 1. List Statistics
+2023-05-23 16:00:01,098 Calculating important statistics for the number of points scored by an NBA team
+2023-05-23 16:00:01,098 
+2023-05-23 16:00:01,098 This is the list of scores for an NBA team for 20 games: [114, 122, 133, 98, 100, 107, 129, 114, 111, 94, 88, 106, 117, 140, 131, 119, 145, 118, 127, 154]
+2023-05-23 16:00:01,098 The mean for number of points scored for 20 games by an NBA team is: 118.35
+2023-05-23 16:00:01,098 The median for number of points scored for 20 games by an NBA team is: 117.50
+2023-05-23 16:00:01,098 The mode for number of points scored for 20 games by an NBA team is: 114.00
+2023-05-23 16:00:01,098 The standard deviation for number of points scored for 20 games by an NBA team is: 17.27
+2023-05-23 16:00:01,098 The variance for number of points scored for 20 games by an NBA team is: 298.24
+2023-05-23 16:00:01,098 
+2023-05-23 16:00:01,098 List 2. Lists - Correlation and Prediction
+2023-05-23 16:00:01,098 Calculating correlation, slope and intercept of best fit line, and predicting y value at future x time
+2023-05-23 16:00:01,098 
+2023-05-23 16:00:01,098 In the first range(0, 10) games of an NBA players season, he scored [20, 22, 31, 40, 18, 19, 16, 33, 35, 25] points
+2023-05-23 16:00:01,098 The correlation between the first 10 games played by an NBA player and the number of points scored in said games is 0.17
+2023-05-23 16:00:01,098 The slope, number of game, is 0.45
+2023-05-23 16:00:01,098 The intercept, number of points scored, is 23.85
+2023-05-23 16:00:01,098 In game 15, we predict that the NBA Player will score 30.672727272727272 points
+2023-05-23 16:00:01,098 
+2023-05-23 16:00:01,098 Lists 3. Lists - Using Python Built-in Functions 
+2023-05-23 16:00:01,098 Calculating statistics using built-in functions
+2023-05-23 16:00:01,098 
+2023-05-23 16:00:01,098 The minimum number of points scored by an NBA team is 88
+2023-05-23 16:00:01,098 The maximum number of points scored by an NBA team is 154
+2023-05-23 16:00:01,098 The number of NBA Games played was 20
+2023-05-23 16:00:01,098 The sum of all the NBA Games played by a team is 2367
+2023-05-23 16:00:01,098 The average number of points scored in a game by a NBA team is 118.35
+2023-05-23 16:00:01,098 The number of points scored, without any repeats, by an NBA team are {129, 131, 133, 140, 145, 154, 88, 94, 98, 100, 106, 107, 111, 114, 117, 118, 119, 122, 127}
+2023-05-23 16:00:01,098 The number of points scored by an NBA team sorted from smallest to largest is [88, 94, 98, 100, 106, 107, 111, 114, 114, 117, 118, 119, 122, 127, 129, 131, 133, 140, 145, 154]
+2023-05-23 16:00:01,098 The number of points scored by an NBA team sorted from largest to smallest is [154, 145, 140, 133, 131, 129, 127, 122, 119, 118, 117, 114, 114, 111, 107, 106, 100, 98, 94, 88]
+2023-05-23 16:00:01,098 

@@ -125,6 +125,39 @@ def list_2_correlation_prediction():
     logger.info(f"In game {future_time}, we predict that the NBA Player will score {predictiony} points")
     logger.info("")
 
+#Task 3-3: Lists 3. Lists - Using Python Built-in Functions 
+
+def list_3_built_in_functions():
+
+    #Introduction logging for function
+
+    logger.info("Lists 3. Lists - Using Python Built-in Functions ")
+    logger.info("Calculating statistics using built-in functions")
+    logger.info("")
+
+    #Using built-in functions
+
+    minimum = min(list1)
+    maximum = max(list1)
+    length = len(list1)
+    sum1 = sum(list1)
+    average = sum1 / length
+    set1 = set(list1)
+    sorted1 = sorted(list1)
+    sorted2 = sorted(list1, reverse=True)
+
+    #Logging of the information
+    
+    logger.info(f"The minimum number of points scored by an NBA team is {minimum}")
+    logger.info(f"The maximum number of points scored by an NBA team is {maximum}")
+    logger.info(f"The number of NBA Games played was {length}")
+    logger.info(f"The sum of all the NBA Games played by a team is {sum1}")
+    logger.info(f"The average number of points scored in a game by a NBA team is {average:.2f}")
+    logger.info(f"The number of points scored, without any repeats, by an NBA team are {set1}")
+    logger.info(f"The number of points scored by an NBA team sorted from smallest to largest is {sorted1}")
+    logger.info(f"The number of points scored by an NBA team sorted from largest to smallest is {sorted2}")
+    logger.info("")
+
 
 
 
@@ -140,6 +173,7 @@ if __name__ == "__main__":
     # call your functions here (see instructions)
     list_1_descriptive_stats()
     list_2_correlation_prediction()
+    list_3_built_in_functions()
     with open(logname, 'r') as file_wrapper:
         print(file_wrapper.read())
 
