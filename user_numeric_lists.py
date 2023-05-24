@@ -151,14 +151,62 @@ def list_3_built_in_functions():
     logger.info(f"The minimum number of points scored by an NBA team is {minimum}")
     logger.info(f"The maximum number of points scored by an NBA team is {maximum}")
     logger.info(f"The number of NBA Games played was {length}")
-    logger.info(f"The sum of all the NBA Games played by a team is {sum1}")
+    logger.info(f"The sum of all the points from the games played by an NBA team is {sum1}")
     logger.info(f"The average number of points scored in a game by a NBA team is {average:.2f}")
     logger.info(f"The number of points scored, without any repeats, by an NBA team are {set1}")
     logger.info(f"The number of points scored by an NBA team sorted from smallest to largest is {sorted1}")
     logger.info(f"The number of points scored by an NBA team sorted from largest to smallest is {sorted2}")
     logger.info("")
 
+#Task 3-4: Lists 4. List Methods
 
+def list_4_list_methods():
+
+    #Introduction logging for function
+
+    logger.info("Lists 4. List Methods")
+    logger.info("Using list methods to make alterations to a list")
+    logger.info("")
+
+    #Using list methods, lst represnts jersey numbers of players in the starting lineup of an NBA team
+
+    lst = [2, 9, 11, 13, 43]
+
+    logger.info(f"Here are the inital jersey numbers of NBA players in the starting lineup {lst}")
+
+    lst.append(5)
+    logger.info(f"Appending a new jersey to the list of jeresy numbers {lst}")
+
+    lst.extend([17, 13, 23, 44, 55])
+    logger.info(f"Adding the opposing teams jersey numbers {lst}")
+
+    lst.insert(2, 16)
+    logger.info(f"Adding a new jersey number to the original team in the third slot {lst}")
+
+    lst.remove(5)
+    logger.info(f"Removing the jersey number 5 from the team {lst}")
+
+    count_list = lst.count(2)
+    logger.info(f"Counting the number of times jersey number 2 appears {count_list}")
+
+    lst.sort()
+    logger.info(f"Sorting the list into order from smallest to largest {lst}")
+
+    lst.sort(reverse=True)
+    logger.info(f"Sorting the list into order from largest to smallest {lst}")
+
+    copy_list = lst.copy()
+    copy_list.remove(44)
+    logger.info(f"It would appear that a member of the team has left {copy_list}")
+    logger.info(f"Here is the original list before that happened {lst}")
+
+    lst.pop(0)
+    logger.info(f"The first jersey number on the team has left {lst}")
+
+    lst.pop(-1)
+    logger.info(f"The last jersey number on the team has left {lst}")
+
+    
 
 
 # -------------------------------------------------------------
@@ -174,6 +222,7 @@ if __name__ == "__main__":
     list_1_descriptive_stats()
     list_2_correlation_prediction()
     list_3_built_in_functions()
+    list_4_list_methods()
     with open(logname, 'r') as file_wrapper:
         print(file_wrapper.read())
 
