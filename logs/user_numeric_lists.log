@@ -1,58 +1,65 @@
-2023-05-24 15:35:26,241 =============================================================
-2023-05-24 15:35:26,241 =============================================================
-2023-05-24 15:35:26,241 Today is 2023-05-24 at 03:35 PM
-2023-05-24 15:35:26,256 This file is running on: nt Windows 10
-2023-05-24 15:35:26,256 The Python version is: 3.11.3
-2023-05-24 15:35:26,256 The active conda environment is:  None
-2023-05-24 15:35:26,256 The active pip environment is:    None
-2023-05-24 15:35:26,256 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python311
-2023-05-24 15:35:26,256 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
-2023-05-24 15:35:26,256 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
-2023-05-24 15:35:26,256 =============================================================
-2023-05-24 15:35:26,256 =============================================================
-2023-05-24 15:35:26,256 List 1. List Statistics
-2023-05-24 15:35:26,256 Calculating important statistics for the number of points scored by an NBA team
-2023-05-24 15:35:26,256 
-2023-05-24 15:35:26,256 This is the list of scores for an NBA team for 20 games: [114, 122, 133, 98, 100, 107, 129, 114, 111, 94, 88, 106, 117, 140, 131, 119, 145, 118, 127, 154]
-2023-05-24 15:35:26,257 The mean for number of points scored for 20 games by an NBA team is: 118.35
-2023-05-24 15:35:26,257 The median for number of points scored for 20 games by an NBA team is: 117.50
-2023-05-24 15:35:26,257 The mode for number of points scored for 20 games by an NBA team is: 114.00
-2023-05-24 15:35:26,257 The standard deviation for number of points scored for 20 games by an NBA team is: 17.27
-2023-05-24 15:35:26,257 The variance for number of points scored for 20 games by an NBA team is: 298.24
-2023-05-24 15:35:26,257 
-2023-05-24 15:35:26,258 List 2. Lists - Correlation and Prediction
-2023-05-24 15:35:26,258 Calculating correlation, slope and intercept of best fit line, and predicting y value at future x time
-2023-05-24 15:35:26,258 
-2023-05-24 15:35:26,258 In the first range(0, 10) games of an NBA players season, he scored [20, 22, 31, 40, 18, 19, 16, 33, 35, 25] points
-2023-05-24 15:35:26,258 The correlation between the first 10 games played by an NBA player and the number of points scored in said games is 0.17
-2023-05-24 15:35:26,258 The slope, number of game, is 0.45
-2023-05-24 15:35:26,258 The intercept, number of points scored, is 23.85
-2023-05-24 15:35:26,258 In game 15, we predict that the NBA Player will score 30.672727272727272 points
-2023-05-24 15:35:26,258 
-2023-05-24 15:35:26,258 Lists 3. Lists - Using Python Built-in Functions 
-2023-05-24 15:35:26,258 Calculating statistics using built-in functions
-2023-05-24 15:35:26,258 
-2023-05-24 15:35:26,258 The minimum number of points scored by an NBA team is 88
-2023-05-24 15:35:26,258 The maximum number of points scored by an NBA team is 154
-2023-05-24 15:35:26,258 The number of NBA Games played was 20
-2023-05-24 15:35:26,258 The sum of all the points from the games played by an NBA team is 2367
-2023-05-24 15:35:26,258 The average number of points scored in a game by a NBA team is 118.35
-2023-05-24 15:35:26,258 The number of points scored, without any repeats, by an NBA team are {129, 131, 133, 140, 145, 154, 88, 94, 98, 100, 106, 107, 111, 114, 117, 118, 119, 122, 127}
-2023-05-24 15:35:26,258 The number of points scored by an NBA team sorted from smallest to largest is [88, 94, 98, 100, 106, 107, 111, 114, 114, 117, 118, 119, 122, 127, 129, 131, 133, 140, 145, 154]
-2023-05-24 15:35:26,258 The number of points scored by an NBA team sorted from largest to smallest is [154, 145, 140, 133, 131, 129, 127, 122, 119, 118, 117, 114, 114, 111, 107, 106, 100, 98, 94, 88]
-2023-05-24 15:35:26,258 
-2023-05-24 15:35:26,258 Lists 4. List Methods
-2023-05-24 15:35:26,258 Using list methods to make alterations to a list
-2023-05-24 15:35:26,258 
-2023-05-24 15:35:26,258 Here are the inital jersey numbers of NBA players in the starting lineup [2, 9, 11, 13, 43]
-2023-05-24 15:35:26,258 Appending a new jersey to the list of jeresy numbers [2, 9, 11, 13, 43, 5]
-2023-05-24 15:35:26,258 Adding the opposing teams jersey numbers [2, 9, 11, 13, 43, 5, 17, 13, 23, 44, 55]
-2023-05-24 15:35:26,258 Adding a new jersey number to the original team in the third slot [2, 9, 16, 11, 13, 43, 5, 17, 13, 23, 44, 55]
-2023-05-24 15:35:26,258 Removing the jersey number 5 from the team [2, 9, 16, 11, 13, 43, 17, 13, 23, 44, 55]
-2023-05-24 15:35:26,258 Counting the number of times jersey number 2 appears 1
-2023-05-24 15:35:26,258 Sorting the list into order from smallest to largest [2, 9, 11, 13, 13, 16, 17, 23, 43, 44, 55]
-2023-05-24 15:35:26,258 Sorting the list into order from largest to smallest [55, 44, 43, 23, 17, 16, 13, 13, 11, 9, 2]
-2023-05-24 15:35:26,258 It would appear that a member of the team has left [55, 43, 23, 17, 16, 13, 13, 11, 9, 2]
-2023-05-24 15:35:26,259 Here is the original list before that happened [55, 44, 43, 23, 17, 16, 13, 13, 11, 9, 2]
-2023-05-24 15:35:26,259 The first jersey number on the team has left [44, 43, 23, 17, 16, 13, 13, 11, 9, 2]
-2023-05-24 15:35:26,259 The last jersey number on the team has left [44, 43, 23, 17, 16, 13, 13, 11, 9]
+2023-05-25 14:09:42,006 =============================================================
+2023-05-25 14:09:42,007 =============================================================
+2023-05-25 14:09:42,007 Today is 2023-05-25 at 02:09 PM
+2023-05-25 14:09:42,022 This file is running on: nt Windows 10
+2023-05-25 14:09:42,022 The Python version is: 3.11.3
+2023-05-25 14:09:42,022 The active conda environment is:  None
+2023-05-25 14:09:42,022 The active pip environment is:    None
+2023-05-25 14:09:42,022 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python311
+2023-05-25 14:09:42,022 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
+2023-05-25 14:09:42,022 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
+2023-05-25 14:09:42,022 =============================================================
+2023-05-25 14:09:42,022 =============================================================
+2023-05-25 14:09:42,022 List 1. List Statistics
+2023-05-25 14:09:42,022 Calculating important statistics for the number of points scored by an NBA team
+2023-05-25 14:09:42,022 
+2023-05-25 14:09:42,022 This is the list of scores for an NBA team for 20 games: [114, 122, 133, 98, 100, 107, 129, 114, 111, 94, 88, 106, 117, 140, 131, 119, 145, 118, 127, 154]
+2023-05-25 14:09:42,023 The mean for number of points scored for 20 games by an NBA team is: 118.35
+2023-05-25 14:09:42,023 The median for number of points scored for 20 games by an NBA team is: 117.50
+2023-05-25 14:09:42,023 The mode for number of points scored for 20 games by an NBA team is: 114.00
+2023-05-25 14:09:42,023 The standard deviation for number of points scored for 20 games by an NBA team is: 17.27
+2023-05-25 14:09:42,023 The variance for number of points scored for 20 games by an NBA team is: 298.24
+2023-05-25 14:09:42,023 
+2023-05-25 14:09:42,023 List 2. Lists - Correlation and Prediction
+2023-05-25 14:09:42,023 Calculating correlation, slope and intercept of best fit line, and predicting y value at future x time
+2023-05-25 14:09:42,023 
+2023-05-25 14:09:42,023 In the first range(0, 10) games of an NBA players season, he scored [20, 22, 31, 40, 18, 19, 16, 33, 35, 25] points
+2023-05-25 14:09:42,023 The correlation between the first 10 games played by an NBA player and the number of points scored in said games is 0.17
+2023-05-25 14:09:42,023 The slope, number of game, is 0.45
+2023-05-25 14:09:42,023 The intercept, number of points scored, is 23.85
+2023-05-25 14:09:42,023 In game 15, we predict that the NBA Player will score 30.672727272727272 points
+2023-05-25 14:09:42,023 
+2023-05-25 14:09:42,023 Lists 3. Lists - Using Python Built-in Functions 
+2023-05-25 14:09:42,023 Calculating statistics using built-in functions
+2023-05-25 14:09:42,024 
+2023-05-25 14:09:42,024 The minimum number of points scored by an NBA team is 88
+2023-05-25 14:09:42,024 The maximum number of points scored by an NBA team is 154
+2023-05-25 14:09:42,024 The number of NBA Games played was 20
+2023-05-25 14:09:42,024 The sum of all the points from the games played by an NBA team is 2367
+2023-05-25 14:09:42,024 The average number of points scored in a game by a NBA team is 118.35
+2023-05-25 14:09:42,024 The number of points scored, without any repeats, by an NBA team are {129, 131, 133, 140, 145, 154, 88, 94, 98, 100, 106, 107, 111, 114, 117, 118, 119, 122, 127}
+2023-05-25 14:09:42,024 The number of points scored by an NBA team sorted from smallest to largest is [88, 94, 98, 100, 106, 107, 111, 114, 114, 117, 118, 119, 122, 127, 129, 131, 133, 140, 145, 154]
+2023-05-25 14:09:42,024 The number of points scored by an NBA team sorted from largest to smallest is [154, 145, 140, 133, 131, 129, 127, 122, 119, 118, 117, 114, 114, 111, 107, 106, 100, 98, 94, 88]
+2023-05-25 14:09:42,024 
+2023-05-25 14:09:42,024 Lists 4. List Methods
+2023-05-25 14:09:42,024 Using list methods to make alterations to a list
+2023-05-25 14:09:42,024 
+2023-05-25 14:09:42,024 Here are the inital jersey numbers of NBA players in the starting lineup [2, 9, 11, 13, 43]
+2023-05-25 14:09:42,024 Appending a new jersey to the list of jeresy numbers [2, 9, 11, 13, 43, 5]
+2023-05-25 14:09:42,024 Adding the opposing teams jersey numbers [2, 9, 11, 13, 43, 5, 17, 13, 23, 44, 55]
+2023-05-25 14:09:42,024 Adding a new jersey number to the original team in the third slot [2, 9, 16, 11, 13, 43, 5, 17, 13, 23, 44, 55]
+2023-05-25 14:09:42,024 Removing the jersey number 5 from the team [2, 9, 16, 11, 13, 43, 17, 13, 23, 44, 55]
+2023-05-25 14:09:42,024 Counting the number of times jersey number 2 appears 1
+2023-05-25 14:09:42,024 Sorting the list into order from smallest to largest [2, 9, 11, 13, 13, 16, 17, 23, 43, 44, 55]
+2023-05-25 14:09:42,024 Sorting the list into order from largest to smallest [55, 44, 43, 23, 17, 16, 13, 13, 11, 9, 2]
+2023-05-25 14:09:42,024 It would appear that a member of the team has left [55, 43, 23, 17, 16, 13, 13, 11, 9, 2]
+2023-05-25 14:09:42,024 Here is the original list before that happened [55, 44, 43, 23, 17, 16, 13, 13, 11, 9, 2]
+2023-05-25 14:09:42,024 The first jersey number on the team has left [44, 43, 23, 17, 16, 13, 13, 11, 9, 2]
+2023-05-25 14:09:42,024 The last jersey number on the team has left [44, 43, 23, 17, 16, 13, 13, 11, 9]
+2023-05-25 14:09:42,024 
+2023-05-25 14:09:42,024 Lists 5. List Transformations - Using filter() and map()
+2023-05-25 14:09:42,024 Using the filter() and map() methods to transform the list
+2023-05-25 14:09:42,024 
+2023-05-25 14:09:42,024 Here are all of the jersey numbers over 20 [25, 43]
+2023-05-25 14:09:42,024 Here are the cube roots of the jersey numbers [1.259921049894873, 2.668401648721945, 2.924017738212866, 2.3513346877207573, 3.5033980603867243]
+2023-05-25 14:09:42,024 Here are the calculations of the volume of a cube using the jersey numbers [8, 6859, 15625, 2197, 79507]

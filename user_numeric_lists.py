@@ -168,7 +168,7 @@ def list_4_list_methods():
     logger.info("Using list methods to make alterations to a list")
     logger.info("")
 
-    #Using list methods, lst represnts jersey numbers of players in the starting lineup of an NBA team
+    #Using list methods, lst represnts jersey numbers of players in the starting lineup of an NBA team as well as logging data
 
     lst = [2, 9, 11, 13, 43]
 
@@ -205,8 +205,46 @@ def list_4_list_methods():
 
     lst.pop(-1)
     logger.info(f"The last jersey number on the team has left {lst}")
+    logger.info("")
+
+#Task 3-5: Lists 5. List Transformations - Using filter() and map()
+
+def list_5_list_transformations():
+
+    #Introduction logging for function
+
+    logger.info("Lists 5. List Transformations - Using filter() and map()")
+    logger.info("Using the filter() and map() methods to transform the list")
+    logger.info("")
+
+    #List being used for transformations
+
+    lst = [2, 19, 25, 13, 43]
+
+    #Keep x such that x is less than 4 
+
+    jersey_num_over_20 = list(filter(lambda x : x > 20, lst))
+
+    logger.info(f"Here are all of the jersey numbers over 20 {jersey_num_over_20}")
+
+    #Map each x to cuberoot of x 
+
+    cubed_root_jersey_nums = list(map(lambda x : math.cbrt(x), lst))
+
+    logger.info(f"Here are the cube roots of the jersey numbers {cubed_root_jersey_nums}")
+
+    #Calculate the volume of a cube with a side equal to the value in your list
+
+    volume_of_cubes = list(map(lambda x : x * x * x, lst))
+
+    logger.info(f"Here are the calculations of the volume of a cube using the jersey numbers {volume_of_cubes}")
+    logger.info("")
 
     
+
+
+
+
 
 
 # -------------------------------------------------------------
@@ -223,6 +261,7 @@ if __name__ == "__main__":
     list_2_correlation_prediction()
     list_3_built_in_functions()
     list_4_list_methods()
+    list_5_list_transformations()
     with open(logname, 'r') as file_wrapper:
         print(file_wrapper.read())
 
