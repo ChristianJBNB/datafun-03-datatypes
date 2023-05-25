@@ -224,23 +224,44 @@ def list_5_list_transformations():
     #Keep x such that x is less than 4 
 
     jersey_num_over_20 = list(filter(lambda x : x > 20, lst))
-
     logger.info(f"Here are all of the jersey numbers over 20 {jersey_num_over_20}")
 
     #Map each x to cuberoot of x 
 
     cubed_root_jersey_nums = list(map(lambda x : math.cbrt(x), lst))
-
     logger.info(f"Here are the cube roots of the jersey numbers {cubed_root_jersey_nums}")
 
     #Calculate the volume of a cube with a side equal to the value in your list
 
     volume_of_cubes = list(map(lambda x : x * x * x, lst))
-
     logger.info(f"Here are the calculations of the volume of a cube using the jersey numbers {volume_of_cubes}")
     logger.info("")
 
-    
+#Task 3-6: Lists 6. List Transformations - Using List Comprehension
+
+def list_6_list_transformations_comprehension():
+
+    #Introduction logging for function
+
+    logger.info("Lists 6. List Transformations - Using List Comprehension")
+    logger.info("Using list comprehensions to transform data")
+    logger.info("")
+
+    #Use a list comprehension to filter (start within square brackets) to get x (for each x in list1) if x is less than 4 or some other cutoff. 
+
+    num_of_pts_under_105 = [x for x in list1 if x < 105]
+    logger.info(f"Here is the collection of games where an NBA team scored less than 105 points {num_of_pts_under_105}")
+
+    #Use a list comprehension to triple each value in your list1, that is to get x*3 (for x in list1) 
+
+    triple_num_of_pts = [x*3 for x in list1]
+    logger.info(f"Here is the collection of number of points scored in a game multipled by 3 {triple_num_of_pts}")
+
+    #Use a list comprehension to transform your numeric list into another numeric list using a transformation of your choice.
+
+    removing_uneven_scores = [x for x in list1 if x % 2 == 0]
+    logger.info(f"Here are the collection of games where an NBA team scored an even number of points {removing_uneven_scores}")
+
 
 
 
@@ -262,6 +283,7 @@ if __name__ == "__main__":
     list_3_built_in_functions()
     list_4_list_methods()
     list_5_list_transformations()
+    list_6_list_transformations_comprehension()
     with open(logname, 'r') as file_wrapper:
         print(file_wrapper.read())
 
