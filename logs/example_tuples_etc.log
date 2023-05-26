@@ -1,33 +1,33 @@
-2023-05-23 14:00:36,845 =============================================================
-2023-05-23 14:00:36,845 =============================================================
-2023-05-23 14:00:36,845 Today is 2023-05-23 at 02:00 PM
-2023-05-23 14:00:36,858 This file is running on: nt Windows 10
-2023-05-23 14:00:36,858 The Python version is: 3.11.3
-2023-05-23 14:00:36,858 The active conda environment is:  None
-2023-05-23 14:00:36,858 The active pip environment is:    None
-2023-05-23 14:00:36,858 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python311
-2023-05-23 14:00:36,874 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
-2023-05-23 14:00:36,874 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
-2023-05-23 14:00:36,874 =============================================================
-2023-05-23 14:00:36,874 =============================================================
-2023-05-23 14:00:36,874 Calling functions from main block
-2023-05-23 14:00:36,874 tupleA = (1, 2, 3, 4, 5)
-2023-05-23 14:00:36,874 tupleB = (4, 5, 6, 7, 8)
-2023-05-23 14:00:36,874 tupleA = (1, 2, 3, 4, 5)
-2023-05-23 14:00:36,874 tupleB = (4, 5, 6, 7, 8)
-2023-05-23 14:00:36,874 tupleCat = (1, 2, 3, 4, 5, 4, 5, 6, 7, 8)
-2023-05-23 14:00:36,874 tupleAThrice = (1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
-2023-05-23 14:00:36,874 Quotient: 3, Remainder: 1
-2023-05-23 14:00:36,874 setA = {1, 2, 3, 4, 5}
-2023-05-23 14:00:36,874 setB = {4, 5, 6, 7, 8}
-2023-05-23 14:00:36,874 dogA_dict = {'name': 'Rex', 'age': 2, 'weight_kg': 13.4}
-2023-05-23 14:00:36,874 dogB_dict = {'name': 'Fido', 'age': 3, 'weight_kg': 15.2}
-2023-05-23 14:00:36,874 assessment_dict = {'low': 0, 'medium': 1, 'high': 2}
-2023-05-23 14:00:36,874 data_dict = {'name': ['Alice', 'Bob', 'Charlie', 'David'], 'age': [25, 30, 35, 40], 'income': [50000, 60000, 70000, 80000]}
-2023-05-23 14:00:36,874 Word count is a good way to begin processing text.
-2023-05-23 14:00:36,874 Given text_simple.txt, the word_counts_dict = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
-2023-05-23 14:00:36,874 Given text_simple.txt and comprehensions,
-2023-05-23 14:00:36,874 the the word_counts_dict2 = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
-2023-05-23 14:00:36,874 Add more logging statements to the code to see what happens.
-2023-05-23 14:00:36,874 Explore enough to understand.
-2023-05-23 14:00:36,874 Apply these skills to your own topic domain.
+2023-05-26 13:25:47,607 =============================================================
+2023-05-26 13:25:47,607 =============================================================
+2023-05-26 13:25:47,607 Today is 2023-05-26 at 01:25 PM
+2023-05-26 13:25:47,612 This file is running on: nt Windows 10
+2023-05-26 13:25:47,612 The Python version is: 3.11.3
+2023-05-26 13:25:47,612 The active conda environment is:  None
+2023-05-26 13:25:47,612 The active pip environment is:    None
+2023-05-26 13:25:47,612 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python311
+2023-05-26 13:25:47,612 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
+2023-05-26 13:25:47,612 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-03-datatypes
+2023-05-26 13:25:47,612 =============================================================
+2023-05-26 13:25:47,612 =============================================================
+2023-05-26 13:25:47,612 Calling functions from main block
+2023-05-26 13:25:47,612 tupleA = (1, 2, 3, 4, 5)
+2023-05-26 13:25:47,612 tupleB = (4, 5, 6, 7, 8)
+2023-05-26 13:25:47,612 tupleA = (1, 2, 3, 4, 5)
+2023-05-26 13:25:47,612 tupleB = (4, 5, 6, 7, 8)
+2023-05-26 13:25:47,612 tupleCat = (1, 2, 3, 4, 5, 4, 5, 6, 7, 8)
+2023-05-26 13:25:47,612 tupleAThrice = (1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
+2023-05-26 13:25:47,612 Quotient: 3, Remainder: 1
+2023-05-26 13:25:47,612 setA = {1, 2, 3, 4, 5}
+2023-05-26 13:25:47,612 setB = {4, 5, 6, 7, 8}
+2023-05-26 13:25:47,612 dogA_dict = {'name': 'Rex', 'age': 2, 'weight_kg': 13.4}
+2023-05-26 13:25:47,612 dogB_dict = {'name': 'Fido', 'age': 3, 'weight_kg': 15.2}
+2023-05-26 13:25:47,612 assessment_dict = {'low': 0, 'medium': 1, 'high': 2}
+2023-05-26 13:25:47,612 data_dict = {'name': ['Alice', 'Bob', 'Charlie', 'David'], 'age': [25, 30, 35, 40], 'income': [50000, 60000, 70000, 80000]}
+2023-05-26 13:25:47,612 Word count is a good way to begin processing text.
+2023-05-26 13:25:47,612 Given text_simple.txt, the word_counts_dict = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
+2023-05-26 13:25:47,628 Given text_simple.txt and comprehensions,
+2023-05-26 13:25:47,628 the the word_counts_dict2 = {'One': 1, 'fish': 3, 'two': 1, 'red': 1, 'blue': 1, 'fish.': 1}
+2023-05-26 13:25:47,628 Add more logging statements to the code to see what happens.
+2023-05-26 13:25:47,628 Explore enough to understand.
+2023-05-26 13:25:47,628 Apply these skills to your own topic domain.

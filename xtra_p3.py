@@ -48,12 +48,12 @@ def compare_two_plays():
     # hint: use sorted() to sort the list
     # hint: use set() to remove duplicates
     # name them wordset1 and wordset2
-    wordset1 = set()  # TODO fix this line
-    wordset2 = set()  # TODO fix this line
+    wordset1 = set(sorted(longwordset1))  # TODO fix this line
+    wordset2 = set(sorted(longwordset2))  # TODO fix this line
 
 
     # initialize a variable maxlen = 10
-    maxlen = 1  # TODO fix this line
+    maxlen = 10  # TODO fix this line
 
     # use a list comprension to get a list of words longer than 10
     # for word in wordset1
